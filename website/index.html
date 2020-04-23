@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Campatible" content="ie=edge">
+    <title>HTML5 и CSS3 site</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>itCourses</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Преимущества</a>
+            <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Контакты</a>
+            <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+        </div>
+    </header>
+
+    <div id="top">
+        <h1>Программирование</h1>
+        <h3>Как способ жизни!</h3>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Наши услуги помогут Вам!</h2>
+            <span>Большой выбор всего что может пригодиться</span>
+        </div>
+        <div class="text">
+            <span>The short articles and everyday conversations are designed by experienced teachers to help beginning students feel challenged and successful. After each section, you can take a short test that's evaluated immediately, giving you instant feedback. Download and print each text as a PDF for free! For example as teaching material or additional homework to deepen your reading skills.</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Преимущества</h2>
+        <h4>С нами все проще</h4>
+
+        <div class="img">
+            <img src="https://itproger.com/img/courses/1534335030.jpg" alt="">
+            <span>Изучение языка Ruby для начинающих</span>
+        </div>
+        <div class="img">
+            <img src="https://itproger.com/img/courses/1530341233.jpg" alt="">
+            <span>Уроки Photoshop для начинающих</span>
+        </div>
+        <div class="img">
+            <img src="https://itproger.com/img/courses/1523436361.jpg" alt="">
+            <span>Уроки Swift для начинающих</span>
+        </div>
+        <div class="img">
+            <img src="https://itproger.com/img/courses/1518607198.jpg" alt="">
+            <span>Создание игры на Python 3 с PyGame</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Обратная связь</h5></center>
+        <form id="form_input">
+            <label for="name">Имя <span>*</span></label><br>
+            <input type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Введите email <span>*</span></label><br>
+            <input type="email" placeholder="Введите email" name="email" id="email">
+            <label for="message">Сообщение <span>*</span></label><br>
+            <textarea placeholder="Введите ваше сообщение" name="message" id="message"></textarea><br>
+            <div id="mess_send" class="btn">Отправить</div>
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">Оплата</span><br>
+            <span class="heading">Как будет проходит оплата?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Как будет проходит оплата?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Как будет проходит оплата?</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+        <div>
+            <span class="title">Гарантии</span><br>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+            <span class="heading">Какие гарантии есть</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id) {
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        }
+
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+        });
+    </script>
+
+</body>
+</html>
