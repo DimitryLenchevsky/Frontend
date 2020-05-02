@@ -157,4 +157,47 @@ h1 {
     float: right;
 }
 
-.about
+.about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about_item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.about_item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.about_item p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.about_item:nth-child(2) {
+    margin-left: 58px;
+}
+
+.about_item:last-child {
+    float: right;
+}
+
+#footer {
+    background: rgb(236, 219, 204);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.5em;
+    text-align: center;
+}
